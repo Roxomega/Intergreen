@@ -1,0 +1,28 @@
+.br {
+    border-right: solid lightblue 1px;
+}
+
+@media (max-width:576px) {
+    .stretch {
+        width: 100%;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+}
+
+.center-bot {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.center-bot a {
+    font-size: 36px;
+}
